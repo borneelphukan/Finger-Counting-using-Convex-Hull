@@ -44,6 +44,7 @@ def printOutput(num_defects, hand_area, area_ratio):
     else:
         cv2.putText(frame, error_message[1], (10, 50), font, 2, text_color, 3, cv2.LINE_AA)
 
+# ============== MAIN SECTION (USING OPENCV) ========
 video = cv2.VideoCapture(0)
 
 while(1):
